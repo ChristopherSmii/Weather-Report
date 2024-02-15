@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 website - Weather</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="aboveSpin" class="d-flex justify-content-center align-items-center">
+        <div class="spinner-border text-light" style="height: 6rem; width: 6rem;" role="status"></div>
+    </div>
+    <div class="container">
+        <div class="row py-2">
+            <div class="col-12">
+                <h1 style="text-align: center;">Weather Website</h1>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-6 my-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img">
+                    <div class="card-body">
+                        <h2 class="card-text" id="userLocation">location?</h2>
+                        <h2 class="card-text" id="locationTemp">temp?</h2>
+                        <h2 class="card-text" id="locationH">hum?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1 id="name"></h1>
+                <h3 id="gText"></h3>
+            </div>
+        </div>
+    </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./js/first.js"></script>
+    <script src="./js/location.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
